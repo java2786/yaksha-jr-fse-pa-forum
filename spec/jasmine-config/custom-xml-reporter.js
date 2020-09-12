@@ -12,7 +12,7 @@ class CustomXmlReporter {
       // console.log(fs.existsSync(path))
   
       let data = fs.readFileSync(path, {encoding:'utf8', flag:'r'});
-      console.log(data);
+      // console.log(data);
       
       var xml = builder.create('test-cases');
 
