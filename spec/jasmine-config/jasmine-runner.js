@@ -12,7 +12,7 @@ Jasmine.loadConfigFile("./spec/support/jasmine.json");
 // add custom reporter
 Jasmine.addReporter(new CurrentSpecReporter());
 
-let generateXML = true;
+let generateXML = false;
 if(generateXML){
     Jasmine.addReporter(new CustomXmlReporter());
 }
