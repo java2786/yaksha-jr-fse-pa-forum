@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599893550282" clover="3.2.0">
-  <project timestamp="1599893550282" name="All files">
-    <metrics statements="110" coveredstatements="56" conditionals="15" coveredconditionals="9" methods="28" coveredmethods="11" elements="153" coveredelements="76" complexity="0" loc="110" ncloc="110" packages="6" files="12" classes="12"/>
+<coverage generated="1599933664380" clover="3.2.0">
+  <project timestamp="1599933664380" name="All files">
+    <metrics statements="110" coveredstatements="57" conditionals="15" coveredconditionals="10" methods="28" coveredmethods="11" elements="153" coveredelements="78" complexity="0" loc="110" ncloc="110" packages="6" files="12" classes="12"/>
     <package name="config">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="db-server.js" path="D:\Training\Yaksha\Forum\iihtprojects\forumProject - mean\kbd\kbd\yaksha-jr-fse-pa-forum\src\config\db-server.js">
@@ -42,9 +42,9 @@
       </file>
     </package>
     <package name="repository">
-      <metrics statements="37" coveredstatements="20" conditionals="4" coveredconditionals="2" methods="15" coveredmethods="6"/>
+      <metrics statements="37" coveredstatements="21" conditionals="4" coveredconditionals="3" methods="15" coveredmethods="6"/>
       <file name="crud.js" path="D:\Training\Yaksha\Forum\iihtprojects\forumProject - mean\kbd\kbd\yaksha-jr-fse-pa-forum\src\repository\crud.js">
-        <metrics statements="37" coveredstatements="20" conditionals="4" coveredconditionals="2" methods="15" coveredmethods="6"/>
+        <metrics statements="37" coveredstatements="21" conditionals="4" coveredconditionals="3" methods="15" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -53,8 +53,8 @@
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="17" count="0" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="23" count="0" type="stmt"/>

@@ -8,8 +8,6 @@ var xml = builder.create('test-cases');
 readJson(jsonData);
 writeXml();
 
-
-
 function readJson(data){
     for (var jsonDataKey in data) {
         let type, result, name;
@@ -20,12 +18,8 @@ function readJson(data){
     
             result = jsonData[jsonDataKey].specs[specsKey].status == "passed";
     
-    
             prepareXml(capitalize(type), name, result);
-    
         }
-    
-    
     }
 }
 
@@ -34,7 +28,7 @@ function readJson(data){
 function prepareXml(type, name, result) {
     xml.ele('cases', { "xmlns:java": "http://java.sun.com", "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance", "xsi:type": "java:com.assessment.data.TestCase" })
     .ele('test-case-type', type).up()
-    .ele('expected-output', result).up()
+    .ele('expected-ouput', result).up()
     .ele('name', name).up()
     .ele('weight', 2).up()
     .ele('mandatory', true).up()
